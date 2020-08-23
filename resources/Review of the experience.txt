@@ -1,0 +1,8 @@
+We did not design errorValue class at first, and then we had to use "try catch" when to convert a
+cell that contains invalid input to an errorValue class. We think that's a poor design and may cause
+some bugs in some situation. What's more, we designed a ButtonListener class which could add action
+listener to our editor view in the controller. After looking at our provider's code, we realize that
+it is a better design to encapsulate ButtonListener in our editor view, and that would make our code 
+more flexible, so we update this for our customers. Moreover, the code from provider is quite clean, 
+and we thought we could do better to break down those methods and remove some unnecessary codes. 
+It is a great experience with our providers. The end of semester, good luck to all!

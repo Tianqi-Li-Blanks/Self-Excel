@@ -1,0 +1,9 @@
+In general, the code from provider is flexible and reusable. They encapsulated features in their editor view so that we can use it easily. 
+The code is written cleanly and well-documented which saves us a lot of time to figure out the purpose of each class as well as method. 
+Also, their code is well constructed and does not have redundant method, and their views could reach almost all the requirements.
+However, they could still make some improvements to make their code more flexible. In their model class, they have methods
+that get and return concrete classes, which make the code a little bit inflexible. We had to create the missing class to make it work.
+It is a better design not get or return concrete class in model. What's more, their view has a concrete model
+class, instead of it, it is better to contain a interface of model.
+Overall, their code is great, and we learn a lot from it. It was a nice experience to work their code. Their code is convenient to reuse, 
+and we did not spend to much time on it. Good job!

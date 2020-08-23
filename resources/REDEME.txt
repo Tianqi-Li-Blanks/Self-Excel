@@ -1,0 +1,6 @@
+The provider's code encapsulated the action listener and implements mouse listener directly,
+which is convenient for us to reuse their code. We were able get all the features working.
+They have many methods that get and return concrete classes in model, we have to create all the missing
+class to make it work. For example, they have an interface named feature, which only has one method
+modifyCell that modify a given Coord with the given String. We make our new controller implements
+feature and we could use their editor view by create a model adaptor class finally.

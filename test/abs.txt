@@ -1,0 +1,7 @@
+A1 5
+A3 =69
+B2 6
+a5 =(SUM)
+a6 =1236a
+B4 "a very very long sentence"
+X1 "HERE"

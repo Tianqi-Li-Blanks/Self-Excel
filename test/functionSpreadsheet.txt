@@ -1,0 +1,6 @@
+B1 6
+B2 7
+A1 =(SUM B1 B2)
+A2 =(SUB B1 B2)
+A3 =(PRD B1 B2)
+A4 =(< B1 B2)

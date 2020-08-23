@@ -1,0 +1,5 @@
+A2 true
+B2 7.0
+A1 "a string"
+A4 =(error)
+A3 false
